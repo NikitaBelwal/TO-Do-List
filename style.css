@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient( 180deg, #344772, #61f8ff );
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+#newtask{
+    position: relative;
+    background-color: #1b89b4;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #332855;
+    padding: 12px;
+    color: #0e0909;
+    font-weight: 500;
+    position: relative;
+    border-radius: 10px;
+    background-color: #f1eef9;
+    border-bottom: 4px solid #0d0d0e;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #0b0101;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #3d3df6;
+    border: none;
+    color: #090909;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 4px solid #0d0d0e;
+    
+  
+}
+#tasks{
+    background-color: #1b89b4;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: #f9f5f5;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #332855;
+    border-bottom: 4px solid #0d0d0e;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.task button{
+    background-color:  #3d3df6;
+    color: #060505;
+    height: 100%;
+    width: 40px;
+    border-radius: 2px;
+    border: 2px;
+    cursor: pointer;
+    outline: none;
+    border-color: #0a0a0a;
+    border: 2px solid #332855;
+    
+
+}
+.completed{
+    text-decoration: line-through;
+}
